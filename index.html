@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OptiCrop Engine Dashboard</title>
+    <style>
+        body { background-color: #0f1319; color: #e2e8f0; font-family: system-ui, sans-serif; margin: 0; padding: 40px; display: flex; }
+        .sidebar { width: 240px; font-weight: bold; border-right: 1px solid #1e293b; padding-right: 20px; position: fixed; }
+        .sidebar h2 { color: #f8fafc; margin: 0; font-size: 20px; display: flex; align-items: center; gap: 10px; font-weight: 700; }
+        .sidebar p { color: #64748b; font-size: 12px; margin: 12px 0 0 0; }
+        .main-content { flex: 1; margin-left: 280px; max-width: 900px; }
+        .project-banner { font-size: 11px; text-transform: uppercase; color: #4ade80; font-weight: 700; letter-spacing: 1.5px; margin-bottom: 25px; background-color: #14231a; display: inline-block; padding: 6px 12px; border-radius: 4px; border: 1px solid #1b3a24; }
+        .section-card { background-color: #151b26; border: 1px solid #1e293b; border-radius: 8px; padding: 24px; margin-bottom: 24px; }
+        .section-title { font-size: 14px; font-weight: 600; color: #94a3b8; margin-top: 0; margin-bottom: 20px; border-bottom: 1px solid #1e293b; padding-bottom: 8px; text-transform: uppercase; letter-spacing: 0.5px; }
+        .row-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+        .row-grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+        .field-group { display: flex; flex-direction: column; }
+        label { font-size: 12px; color: #94a3b8; margin-bottom: 8px; font-weight: 600; }
+        input, select { background-color: #0f1319; border: 1px solid #1e293b; color: #f8fafc; padding: 12px; border-radius: 6px; font-size: 14px; outline: none; }
+        input:focus, select:focus { border-color: #22c55e; }
+        .scenario-nav { display: flex; flex-direction: column; gap: 12px; margin-top: 30px; }
+        .nav-item { padding: 12px; border-radius: 6px; background-color: #151b26; border: 1px solid #1e293b; color: #94a3b8; font-size: 12px; cursor: pointer; text-align: left; font-weight: 500; width: 100%; box-sizing: border-box; }
+        .nav-item.active { border-color: #ef4444; color: #f8fafc; background-color: #1c1917; border-left: 4px solid #ef4444; }
+        .btn-submit { background-color: #16a34a; color: white; border: none; padding: 12px 24px; font-weight: bold; border-radius: 6px; cursor: pointer; float: right; font-size: 14px; margin-top: 10px; }
+        .btn-submit:hover { background-color: #15803d; }
+    </style>
+    <script>
+        function setScenarioViaNav(num) {
+            document.getElementById("scenario_select").value = num;
+            document.querySelectorAll(".nav-item").forEach(item => item.classList.remove("active"));
+            document.getElementById("nav_scen_" + num).classList.add("active");
+            
+            const targetContainer = document.getElementById("target_crop_wrapper");
+            const headerTitle = document.getElementById("active_scenario_title");
+            
+            if (num === "1") {
+                headerTitle.innerText = "Scenario 1: Smart Crop Recommendation for Farmers";
+                targetContainer.style.display = "none";
+            } else if (num === "2") {
+                headerTitle.innerText = "Scenario 2: Crop Suitability and Environmental Assessment";
+                targetContainer.style.display = "flex";
+            } else {
+                headerTitle.innerText = "Scenario 3: Agricultural Research and Policy Planning";
+                targetContainer.style.display = "flex";
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="sidebar">
+        <h2>🌾 OptiCrop</h2>
+        <p>Engine Dashboard</p>
+        <div style="font-size: 11px; color: #64748b; text-transform: uppercase; margin-top: 40px; letter-spacing: 0.5px;">Select Scenario</div>
+        <div class="scenario-nav">
+            <button type="button" id="nav_scen_1" class="nav-item active" onclick="setScenarioViaNav('1')">Scenario 1: Farmer Self-Service</button>
+            <button type="button" id="nav_scen_2" class="nav-item" onclick="setScenarioViaNav('2')">Scenario 2: Automated Screening</button>
+            <button type="button" id="nav_scen_3" class="nav-item" onclick="setScenarioViaNav('3')">Scenario 3: Compliance & Risk Review</button>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="project-banner">OptiCrop: Smart Agricultural Production Optimization Engine</div>
+        
+        <form action="/predict" method="POST">
+            <!-- Hidden configuration context parameter state tracker -->
+            <input type="hidden" id="scenario_select" name="scenario" value="1">
+
+            <div class="section-card">
+                <div class="section-title" id="active_scenario_title">Scenario 1: Smart Crop Recommendation for Farmers</div>
+                <div class="row-grid-2" id="target_crop_wrapper" style="display: none; width: 100%;">
+                    <div class="field-group" style="width: 100%;">
+                        <label>Target Crop Evaluation</label>
+                        <select name="target_crop">
+                            <option value="Rice" selected>Rice</option>
+                            <option value="Maize">Maize</option>
+                            <option value="Banana">Banana</option>
+                            <option value="Watermelon">Watermelon</option>
+                            <option value="Mango">Mango</option>
+                            <option value="Apple">Apple</option>
+                            <option value="Blackgram">Blackgram</option>
+                            <option value="Chickpea">Chickpea</option>
+                            <option value="Coconut">Coconut</option>
+                            <option value="Coffee">Coffee</option>
+                            <option value="Cotton">Cotton</option>
+                            <option value="Grapes">Grapes</option>
+                            <option value="Jute">Jute</option>
+                            <option value="Kidneybeans">Kidneybeans</option>
+                            <option value="Lentil">Lentil</option>
+                            <option value="Mothbeans">Mothbeans</option>
+                            <option value="Mungbean">Mungbean</option>
+                            <option value="Muskmelon">Muskmelon</option>
+                            <option value="Orange">Orange</option>
+                            <option value="Papaya">Papaya</option>
+                            <option value="Pigeonpeas">Pigeonpeas</option>
+                            <option value="Pomegranate">Pomegranate</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-card">
+                <div class="section-title">Soil Chemistry Properties</div>
+                <div class="row-grid">
+                    <div class="field-group"><label>Nitrogen (N) mg/kg</label><input type="number" step="any" name="N" value="90" required></div>
+                    <div class="field-group"><label>Phosphorus (P) mg/kg</label><input type="number" step="any" name="P" value="42" required></div>
+                    <div class="field-group"><label>Potassium (K) mg/kg</label><input type="number" step="any" name="K" value="43" required></div>
+                </div>
+            </div>
+
+            <div class="section-card">
+                <div class="section-title">Macroclimate Factors</div>
+                <div class="row-grid-2">
+                    <div class="field-group"><label>Temperature (°C)</label><input type="number" step="any" name="temperature" value="20.8" required></div>
+                    <div class="field-group"><label>Humidity (%)</label><input type="number" step="any" name="humidity" value="82.0" required></div>
+                    <div class="field-group"><label>Soil pH Configuration</label><input type="number" step="any" name="soil_pH" value="6.50" required></div>
+                    <div class="field-group"><label>Rainfall Index (mm)</label><input type="number" step="any" name="rainfall_index" value="202.0" required></div>
+                </div>
+            </div>
+
+            <button type="submit" class="btn-submit">Execute Model Inference</button>
+        </form>
+    </div>
+</body>
+</html>
