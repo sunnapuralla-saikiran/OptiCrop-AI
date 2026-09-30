@@ -1,0 +1,246 @@
+{
+  "crops": {
+    "rice": {
+      "common_name": "Paddy / Rice",
+      "botanical_name": "Oryza sativa",
+      "category": "cereal",
+      "growth_duration_days": "110 - 150",
+      "soil_preference": "Heavy clay loam or alluvial soils capable of holding standing water.",
+      "favorable_ph": "5.5 - 7.2",
+      "water_demand": "High (150 - 300 mm)",
+      "temperature_demand": "Warm tropical (20°C - 35°C)",
+      "key_nutrients": "High N (80-120 kg/ha), moderate P and K"
+    },
+    "maize": {
+      "common_name": "Corn / Maize",
+      "botanical_name": "Zea mays",
+      "category": "cereal",
+      "growth_duration_days": "90 - 120",
+      "soil_preference": "Well-drained fertile loamy soils rich in organic matter.",
+      "favorable_ph": "6.0 - 7.5",
+      "water_demand": "Moderate (60 - 110 mm)",
+      "temperature_demand": "Warm (20°C - 30°C)",
+      "key_nutrients": "High N and P demands during vegetative and silking stages"
+    },
+    "chickpea": {
+      "common_name": "Bengal Gram / Chickpea",
+      "botanical_name": "Cicer arietinum",
+      "category": "pulse / legume",
+      "growth_duration_days": "90 - 115",
+      "soil_preference": "Well-drained light to medium textured loams or black cotton soils.",
+      "favorable_ph": "6.0 - 8.0",
+      "water_demand": "Low to Moderate (40 - 90 mm), very sensitive to waterlogging",
+      "temperature_demand": "Cool to mild (15°C - 25°C)",
+      "key_nutrients": "Fixes atmospheric nitrogen; high requirement for Phosphorus"
+    },
+    "kidneybeans": {
+      "common_name": "Rajma / Kidney Beans",
+      "botanical_name": "Phaseolus vulgaris",
+      "category": "pulse / legume",
+      "growth_duration_days": "80 - 120",
+      "soil_preference": "Rich, well-aerated sandy loam with excellent organic drainage.",
+      "favorable_ph": "5.8 - 6.8",
+      "water_demand": "Moderate (60 - 150 mm)",
+      "temperature_demand": "Moderate (15°C - 25°C)",
+      "key_nutrients": "Moderate N and high Potassium requirement"
+    },
+    "pigeonpeas": {
+      "common_name": "Red Gram / Arhar / Tur",
+      "botanical_name": "Cajanus cajan",
+      "category": "pulse / legume",
+      "growth_duration_days": "140 - 180",
+      "soil_preference": "Deep sandy loam to clay loams with good internal percolation.",
+      "favorable_ph": "6.5 - 7.5",
+      "water_demand": "Moderate (80 - 180 mm)",
+      "temperature_demand": "Warm tropical (24°C - 35°C)",
+      "key_nutrients": "Deep tap root fixes nitrogen and recycles deep subsoil phosphorus"
+    },
+    "mothbeans": {
+      "common_name": "Moth Bean",
+      "botanical_name": "Vigna aconitifolia",
+      "category": "pulse / arid legume",
+      "growth_duration_days": "70 - 90",
+      "soil_preference": "Light sandy and marginal dryland soils.",
+      "favorable_ph": "6.0 - 8.2",
+      "water_demand": "Very Low (30 - 70 mm); highly drought resistant",
+      "temperature_demand": "Hot semi-arid (25°C - 35°C)",
+      "key_nutrients": "Requires minimal nitrogen, high drought resilience"
+    },
+    "mungbean": {
+      "common_name": "Green Gram / Moong",
+      "botanical_name": "Vigna radiata",
+      "category": "pulse / legume",
+      "growth_duration_days": "60 - 75",
+      "soil_preference": "Fertile loam with good drainage.",
+      "favorable_ph": "6.2 - 7.2",
+      "water_demand": "Low to Moderate (40 - 70 mm)",
+      "temperature_demand": "Warm (25°C - 35°C)",
+      "key_nutrients": "Short-duration nitrogen fixer, excellent intercrop"
+    },
+    "blackgram": {
+      "common_name": "Urad / Black Gram",
+      "botanical_name": "Vigna mungo",
+      "category": "pulse / legume",
+      "growth_duration_days": "70 - 85",
+      "soil_preference": "Heavy clay to loamy black soils.",
+      "favorable_ph": "6.5 - 7.5",
+      "water_demand": "Moderate (60 - 80 mm)",
+      "temperature_demand": "Warm (25°C - 35°C)",
+      "key_nutrients": "Nitrogen fixer, responsive to basal Phosphorus application"
+    },
+    "lentil": {
+      "common_name": "Masoor / Lentil",
+      "botanical_name": "Lens culinaris",
+      "category": "pulse / rabi legume",
+      "growth_duration_days": "100 - 130",
+      "soil_preference": "Loam to clay loam soils with balanced moisture retention.",
+      "favorable_ph": "6.0 - 7.5",
+      "water_demand": "Low (35 - 65 mm)",
+      "temperature_demand": "Cool temperate (15°C - 25°C)",
+      "key_nutrients": "Low N demand, responsive to zinc and phosphorus"
+    },
+    "pomegranate": {
+      "common_name": "Pomegranate",
+      "botanical_name": "Punica granatum",
+      "category": "fruit",
+      "growth_duration_days": "Perennial (fruits 130-160 days after flowering)",
+      "soil_preference": "Deep loamy or sandy loam with excellent internal drainage.",
+      "favorable_ph": "6.5 - 7.5",
+      "water_demand": "Moderate (100 - 120 mm during fruit development)",
+      "temperature_demand": "Semi-arid warm (20°C - 35°C)",
+      "key_nutrients": "High demand for balanced N-P-K plus Boron and Calcium"
+    },
+    "banana": {
+      "common_name": "Banana",
+      "botanical_name": "Musa acuminata",
+      "category": "horticultural fruit",
+      "growth_duration_days": "300 - 365",
+      "soil_preference": "Deep, loose, fertile alluvial soils with high organic matter.",
+      "favorable_ph": "6.0 - 7.5",
+      "water_demand": "High (90 - 200 mm with frequent irrigation)",
+      "temperature_demand": "Warm tropical (24°C - 32°C)",
+      "key_nutrients": "Heavy potassium consumer (250-400 kg K/ha)"
+    },
+    "mango": {
+      "common_name": "Mango",
+      "botanical_name": "Mangifera indica",
+      "category": "fruit tree",
+      "growth_duration_days": "Perennial (flowering to harvest 100-140 days)",
+      "soil_preference": "Deep alluvial, well-drained loam without hardpan.",
+      "favorable_ph": "5.5 - 7.5",
+      "water_demand": "Moderate (80 - 110 mm during fruit swelling)",
+      "temperature_demand": "Tropical to sub-tropical (25°C - 35°C)",
+      "key_nutrients": "Requires balanced N-P-K with dry period preceding bloom"
+    },
+    "grapes": {
+      "common_name": "Grape",
+      "botanical_name": "Vitis vinifera",
+      "category": "horticultural vine",
+      "growth_duration_days": "Perennial (pruning to harvest 120-150 days)",
+      "soil_preference": "Sandy loam to gravelly well-drained soils.",
+      "favorable_ph": "6.5 - 7.5",
+      "water_demand": "Moderate (60 - 80 mm with dry ripening stage)",
+      "temperature_demand": "Warm dry summer (15°C - 32°C)",
+      "key_nutrients": "High Potassium demand for sugar translocating into berries"
+    },
+    "watermelon": {
+      "common_name": "Watermelon",
+      "botanical_name": "Citrullus lanatus",
+      "category": "cucurbit / vegetable fruit",
+      "growth_duration_days": "80 - 100",
+      "soil_preference": "Sandy to sandy loam soils along riverbeds with good warmth.",
+      "favorable_ph": "6.0 - 7.0",
+      "water_demand": "Low to Moderate (40 - 60 mm with high irrigation control)",
+      "temperature_demand": "Hot sunny (24°C - 35°C)",
+      "key_nutrients": "High potassium, moderate nitrogen"
+    },
+    "muskmelon": {
+      "common_name": "Muskmelon / Cantaloupe",
+      "botanical_name": "Cucumis melo",
+      "category": "cucurbit / vegetable fruit",
+      "growth_duration_days": "75 - 90",
+      "soil_preference": "Warm well-drained sandy loam.",
+      "favorable_ph": "6.0 - 7.0",
+      "water_demand": "Low (20 - 40 mm with controlled sub-surface moisture)",
+      "temperature_demand": "Warm to hot dry (26°C - 35°C)",
+      "key_nutrients": "Sensitive to waterlogging, needs balanced potassium for sweetness"
+    },
+    "apple": {
+      "common_name": "Apple",
+      "botanical_name": "Malus domestica",
+      "category": "temperate fruit",
+      "growth_duration_days": "Perennial (requires 800-1200 winter chilling hours)",
+      "soil_preference": "Deep, well-aerated loamy soils on gentle hill slopes.",
+      "favorable_ph": "5.5 - 6.5",
+      "water_demand": "Moderate to High (100 - 150 mm)",
+      "temperature_demand": "Cool temperate (10°C - 24°C)",
+      "key_nutrients": "High Potassium and Phosphorus, sensitive to Calcium deficiency"
+    },
+    "orange": {
+      "common_name": "Orange / Mandarin",
+      "botanical_name": "Citrus sinensis",
+      "category": "citrus fruit",
+      "growth_duration_days": "Perennial (fruits mature 240-270 days post bloom)",
+      "soil_preference": "Light loam to medium clay loam with unobstructed drainage.",
+      "favorable_ph": "6.0 - 7.5",
+      "water_demand": "Moderate (100 - 120 mm)",
+      "temperature_demand": "Sub-tropical (15°C - 35°C)",
+      "key_nutrients": "Demands nitrogen, potassium, and micronutrients (Zinc, Iron)"
+    },
+    "papaya": {
+      "common_name": "Papaya",
+      "botanical_name": "Carica papaya",
+      "category": "tropical fruit",
+      "growth_duration_days": "9 - 12 months",
+      "soil_preference": "Rich alluvial or loamy soils with flawless drainage (cannot stand stagnant water for 24h).",
+      "favorable_ph": "6.0 - 7.0",
+      "water_demand": "Moderate to High (120 - 200 mm)",
+      "temperature_demand": "Warm tropical (22°C - 34°C)",
+      "key_nutrients": "Demands heavy organic matter, nitrogen, and continuous potassium"
+    },
+    "coconut": {
+      "common_name": "Coconut Palm",
+      "botanical_name": "Cocos nucifera",
+      "category": "plantation palm",
+      "growth_duration_days": "Perennial (economic bearing starts at 5-7 years)",
+      "soil_preference": "Coastal sandy loams, alluvial, and red sandy soils.",
+      "favorable_ph": "5.5 - 8.0",
+      "water_demand": "High (130 - 250 mm with high groundwater table)",
+      "temperature_demand": "Warm humid coastal (25°C - 32°C)",
+      "key_nutrients": "High chlorine and potassium requirements for osmotic balance"
+    },
+    "cotton": {
+      "common_name": "Cotton",
+      "botanical_name": "Gossypium hirsutum",
+      "category": "cash / fiber crop",
+      "growth_duration_days": "150 - 180",
+      "soil_preference": "Deep black cotton soils (vertisols) with high water-holding capacity.",
+      "favorable_ph": "6.5 - 8.0",
+      "water_demand": "Moderate (60 - 90 mm)",
+      "temperature_demand": "Hot sunny (22°C - 35°C)",
+      "key_nutrients": "High nitrogen and potassium for boll retention and lint quality"
+    },
+    "jute": {
+      "common_name": "Jute (Golden Fiber)",
+      "botanical_name": "Corchorus olitorius",
+      "category": "cash / fiber crop",
+      "growth_duration_days": "120 - 140",
+      "soil_preference": "New alluvial soils, silt loams in floodplains.",
+      "favorable_ph": "6.0 - 7.2",
+      "water_demand": "High (150 - 220 mm)",
+      "temperature_demand": "Warm humid (24°C - 35°C)",
+      "key_nutrients": "High nitrogen for vegetative fiber elongation"
+    },
+    "coffee": {
+      "common_name": "Coffee (Arabica / Robusta)",
+      "botanical_name": "Coffea arabica / canephora",
+      "category": "plantation beverage crop",
+      "growth_duration_days": "Perennial (berries mature 210-270 days)",
+      "soil_preference": "Rich volcanic loam or forest soils with high organic humus and good drainage.",
+      "favorable_ph": "5.5 - 6.5",
+      "water_demand": "High (140 - 220 mm, interspersed with dry spell for blossom trigger)",
+      "temperature_demand": "Mild highland tropical (18°C - 28°C)",
+      "key_nutrients": "High Potassium, balanced Nitrogen, and organic shade leaf mulch"
+    }
+  }
+}

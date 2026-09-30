@@ -1,0 +1,19 @@
+{
+  "name": "Ambient Temperature",
+  "symbol": "temperature",
+  "category": "climatic_variable",
+  "unit": "°C",
+  "description": "Atmospheric kinetic temperature driving enzyme activity, evapotranspiration rates, and thermal growth units (Growing Degree Days).",
+  "importance": "Controls biological phenology, including seed germination kinetics, canopy photosynthesis velocity, pollen viability during anthesis, and post-flowering grain filling.",
+  "thermal_stress_ranges": {
+    "chilling_frost": "< 10°C (frost damage, flower drop, disruption of vascular sap flow in tropical crops)",
+    "temperate_optimal": "15°C - 24°C (ideal for wheat, apple, chickpea, lentil)",
+    "tropical_optimal": "24°C - 34°C (ideal for rice, maize, cotton, banana, sugarcane)",
+    "heat_stress": "> 36°C (pollen sterility, stomatal closure, premature desiccation, respiration exceeding photosynthesis)"
+  },
+  "mitigation_strategies": [
+    "Select heat-tolerant or short-duration cultivars if high temperatures coincide with critical flowering phases.",
+    "Adopt micro-irrigation (sprinklers) during peak diurnal heat to provide evaporative microclimate cooling.",
+    "Utilize organic straw mulching to buffer soil root-zone temperatures."
+  ]
+}

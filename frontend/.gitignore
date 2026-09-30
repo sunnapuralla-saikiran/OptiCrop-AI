@@ -1,0 +1,116 @@
+# ==========================================
+# Node / Frontend
+# ==========================================
+
+node_modules/
+frontend/node_modules/
+
+dist/
+dist-ssr/
+frontend/dist/
+build/
+
+*.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+
+# ==========================================
+# Python / Backend
+# ==========================================
+
+__pycache__/
+*.py[cod]
+*.pyo
+
+.venv/
+venv/
+env/
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+*.egg-info/
+.eggs/
+*.egg
+
+
+# ==========================================
+# Environment Variables / Secrets
+# ==========================================
+
+.env
+.env.*
+!.env.example
+
+
+# ==========================================
+# Databases
+# ==========================================
+
+*.db
+*.sqlite
+*.sqlite3
+
+
+# ==========================================
+# Logs
+# ==========================================
+
+logs/
+*.log
+
+
+# ==========================================
+# IDE / Editor
+# ==========================================
+
+.vscode/*
+!.vscode/extensions.json
+
+.idea/
+
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+.DS_Store
+Thumbs.db
+
+
+# ==========================================
+# Temporary Files
+# ==========================================
+
+*.tmp
+*.temp
+*.bak
+
+
+# ==========================================
+# Generated Reports
+# ==========================================
+
+reports/generated/
+
+
+# ==========================================
+# Legacy Backup
+# ==========================================
+
+OptiCropAI_Legacy_Backup/
+
+
+# ==========================================
+# ML Generated / Temporary Files
+# ==========================================
+
+*.pkl.tmp
+*.joblib.tmp

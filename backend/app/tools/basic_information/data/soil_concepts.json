@@ -1,0 +1,28 @@
+{
+  "concepts": {
+    "cec": {
+      "name": "Cation Exchange Capacity (CEC)",
+      "category": "soil_chemistry",
+      "definition": "The total capacity of a soil to hold exchangeable cations (Ca2+, Mg2+, K+, Na+, NH4+).",
+      "significance": "Higher CEC soils (clays and high organic matter soils) hold nutrients longer and resist leaching compared to low CEC sandy soils."
+    },
+    "soil_texture": {
+      "name": "Soil Texture & Structure",
+      "category": "soil_physics",
+      "definition": "The relative proportion of sand (0.05-2.0 mm), silt (0.002-0.05 mm), and clay (<0.002 mm) particles.",
+      "significance": "Determines soil aeration, water-holding capacity, infiltration rate, root penetration resistance, and tillage ease."
+    },
+    "organic_matter": {
+      "name": "Soil Organic Matter (SOM)",
+      "category": "soil_biology",
+      "definition": "The fraction of the soil that consists of plant or animal tissue in various stages of decomposition.",
+      "significance": "Enhances microbial biodiversity, improves soil water retention, buffers pH swings, and slowly releases micronutrients."
+    },
+    "salinity_sodicity": {
+      "name": "Electrical Conductivity & Sodicity (EC & ESP)",
+      "category": "soil_salinity",
+      "definition": "EC measures total dissolved salts in soil water, while Exchangeable Sodium Percentage (ESP) measures sodium saturation.",
+      "significance": "High salinity induces physiological drought in crop roots; high sodicity causes structural clay dispersion and crusting."
+    }
+  }
+}

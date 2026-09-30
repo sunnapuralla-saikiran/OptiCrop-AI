@@ -1,0 +1,19 @@
+{
+  "name": "Soil pH",
+  "symbol": "pH",
+  "category": "soil_chemical_property",
+  "unit": "-log[H+]",
+  "description": "Soil pH measures hydrogen ion concentration in soil solution, determining whether the soil is acidic, neutral, or alkaline.",
+  "importance": "Directly controls solubility and availability of all essential macro and micronutrients, dictates soil microbial activity, and determines root cell membrane permeability.",
+  "classification_bands": {
+    "strongly_acidic": "< 5.5 (risk of Aluminum and Manganese toxicity; Phosphorus fixation)",
+    "moderately_acidic": "5.5 - 6.5 (tolerable for tea, potato, coffee; slightly restricted nodulation)",
+    "neutral_optimal": "6.5 - 7.5 (optimal nutrient bioavailability for 90%+ agronomic crops)",
+    "moderately_alkaline": "7.5 - 8.5 (risk of Iron, Zinc, and Manganese deficiencies)",
+    "strongly_alkaline": "> 8.5 (saline/sodic conditions, poor soil structure, osmotic moisture stress)"
+  },
+  "remediation": {
+    "acidic_soils": "Incorporate agricultural limestone (CaCO3) or dolomitic lime at least 4-6 weeks before sowing.",
+    "alkaline_soils": "Apply agricultural gypsum (CaSO4.2H2O), elemental sulfur, and organic matter with good drainage flushing."
+  }
+}

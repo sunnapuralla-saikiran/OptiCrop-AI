@@ -1,0 +1,19 @@
+{
+  "name": "Precipitation / Rainfall",
+  "symbol": "rainfall",
+  "category": "hydrological_variable",
+  "unit": "mm",
+  "description": "Total atmospheric water vapor condensation falling as liquid precipitation over the crop growth window.",
+  "importance": "Primary natural replenishment mechanism for soil profile moisture, dictating whether rainfed agriculture is viable or supplemental irrigation is required.",
+  "precipitation_regimes": {
+    "drought_stress": "< 50 mm (severe moisture deficiency; requires drought-hardy pulses/millets or drip irrigation)",
+    "semi_arid": "50 - 100 mm (suitable for dryland pulses, chickpeas, maize with water conservation)",
+    "sub_humid": "100 - 200 mm (favorable for cotton, pigeonpeas, groundnut, fruit crops)",
+    "humid_pluvial": "> 200 mm (suitable for water-intensive crops like paddy rice and jute; creates waterlogging hazard for pulses)"
+  },
+  "water_management": [
+    "Construct broad-bed furrows or raised beds in heavy soils experiencing rainfall exceeding 180 mm to prevent root suffocation.",
+    "Practice in-situ rainwater harvesting (farm ponds, check dams, contour bunding) in rainfed zones.",
+    "Adopt drip irrigation or mulching in low rainfall belts to maximize crop water-use efficiency."
+  ]
+}

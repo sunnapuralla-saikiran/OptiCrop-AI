@@ -1,0 +1,20 @@
+{
+  "name": "Phosphorus",
+  "symbol": "P",
+  "category": "primary_macronutrient",
+  "unit": "kg/ha",
+  "description": "Phosphorus is a crucial component of ATP/ADP nucleic acids and phospholipids, facilitating biochemical energy transfer in plants.",
+  "importance": "Crucial for early root establishment and proliferation, vigorous seedling emergence, flowering initiation, seed formation, and uniform fruit ripening.",
+  "deficiency_symptoms": "Purplish or bronze discoloration along leaf margins and petioles, restricted fibrous root development, delayed flowering, and reduced grain setting.",
+  "excess_symptoms": "Excess phosphorus rarely causes direct toxicity but locks up essential micronutrients, particularly inducing Zinc (Zn) and Iron (Fe) deficiencies.",
+  "optimal_soil_range": {
+    "low": "< 30 kg/ha",
+    "medium": "30 - 75 kg/ha",
+    "high": "> 75 kg/ha"
+  },
+  "management_practices": [
+    "Apply phosphatic fertilizers (such as Single Superphosphate or DAP) as a basal placement close to the root zone because phosphorus is largely immobile in soil.",
+    "Maintain soil pH between 6.0 and 7.5 to prevent chemical fixation by iron/aluminum oxides (in acid soils) or calcium carbonate (in alkaline soils).",
+    "Inoculate seed or seedling roots with Phosphate Solubilizing Bacteria (PSB) to mobilize fixed soil phosphorus."
+  ]
+}

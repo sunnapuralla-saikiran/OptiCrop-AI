@@ -1,0 +1,20 @@
+{
+  "name": "Nitrogen",
+  "symbol": "N",
+  "category": "primary_macronutrient",
+  "unit": "kg/ha",
+  "description": "Nitrogen is a primary constituent of amino acids, proteins, and chlorophyll in plant physiology.",
+  "importance": "Drives rapid vegetative shoot growth, leaf canopy development, cellular photosynthesis, and overall biomass accumulation.",
+  "deficiency_symptoms": "Generalized yellowing (chlorosis) initiating on older lower leaves, stunted plant height, spindly stems, and reduced tillering.",
+  "excess_symptoms": "Excessively dark green foliage, delayed floral initiation and crop maturity, weak succulent stems susceptible to lodging, and higher vulnerability to fungal pathogens.",
+  "optimal_soil_range": {
+    "low": "< 40 kg/ha",
+    "medium": "40 - 90 kg/ha",
+    "high": "> 90 kg/ha"
+  },
+  "management_practices": [
+    "Apply nitrogenous fertilizers in split doses (basal, tillering, panicle initiation) to avoid leaching.",
+    "Incorporate leguminous green manure crops (e.g., Sesbania, Sunn hemp) into crop rotations to fix atmospheric nitrogen.",
+    "Utilize neem-coated urea or slow-release formulations to increase nitrogen-use efficiency."
+  ]
+}

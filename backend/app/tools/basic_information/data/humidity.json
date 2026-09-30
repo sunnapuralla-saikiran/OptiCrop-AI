@@ -1,0 +1,18 @@
+{
+  "name": "Relative Humidity",
+  "symbol": "humidity",
+  "category": "climatic_variable",
+  "unit": "%",
+  "description": "The ratio of partial pressure of water vapor in the atmosphere to the equilibrium vapor pressure at a given temperature.",
+  "importance": "Governs the vapor pressure deficit (VPD) between leaf stomata and atmosphere, driving transpiration, xylem nutrient flow, and fungal spore germination kinetics.",
+  "humidity_regimes": {
+    "low_arid": "< 40% (high transpiration demand, leaf wilting if soil moisture is inadequate, low fungal pressure)",
+    "moderate_optimal": "40% - 75% (favorable transpiration, steady nutrient absorption)",
+    "high_humid": "> 80% (reduced evaporative cooling, elevated incidence of foliar fungal blights, rusts, and downy mildews)"
+  },
+  "agronomic_advice": [
+    "In high humidity (>80%), adjust planting spacing to facilitate air circulation through the canopy.",
+    "Schedule preventative organic or biopesticide sprays (e.g. Trichoderma) during sustained humid spells.",
+    "In low humidity conditions, ensure frequent light irrigations to keep crop canopy turgid."
+  ]
+}
